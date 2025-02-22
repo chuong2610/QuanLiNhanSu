@@ -23,6 +23,8 @@ public class Role {
         this.roleSalary = roleSalary;
     }
 
+   
+
     public int getId() {
         return id;
     }

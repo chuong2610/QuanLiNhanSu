@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
  */
 public class Attendence {
     private int id;
-    private float totalTime;
+    private int totalTime;
     private LocalDateTime timeCheckIn;
     private LocalDateTime timeCheckOut;
     private int employeeId;
@@ -23,11 +23,12 @@ public class Attendence {
 
     public Attendence(int id, float totalTime, LocalDateTime timeCheckIn, LocalDateTime timeCheckOut, int employeeId) {
         this.id = id;
-        this.totalTime = totalTime;
+        this.totalTime = (int) totalTime;
         this.timeCheckIn = timeCheckIn;
         this.timeCheckOut = timeCheckOut;
         this.employeeId = employeeId;
     }
+
 
     public int getId() {
         return id;
@@ -42,7 +43,7 @@ public class Attendence {
     }
 
     public void setTotalTime(float totalTime) {
-        this.totalTime = totalTime;
+        this.totalTime = (int) totalTime;
     }
 
     public LocalDateTime getTimeCheckIn() {

@@ -11,15 +11,15 @@ import java.time.LocalDateTime;
  *
  * @author ADMIN
  */
-public class AttendentDTO {
+public class AttendenceDTO {
      private LocalDateTime timeCheckIn;
     private LocalDateTime timeCheckOut;
     private int employeeId;
 
-    public AttendentDTO() {
+    public AttendenceDTO() {
     }
 
-    public AttendentDTO(LocalDateTime timeCheckIn, LocalDateTime timeCheckOut, int employeeId) {
+    public AttendenceDTO(LocalDateTime timeCheckIn, LocalDateTime timeCheckOut, int employeeId) {
         this.timeCheckIn = timeCheckIn;
         this.timeCheckOut = timeCheckOut;
         this.employeeId = employeeId;

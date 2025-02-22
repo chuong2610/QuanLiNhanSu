@@ -5,6 +5,8 @@
  */
 package model;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author ADMIN
@@ -26,6 +28,10 @@ public class Salary {
         this.year = year;
         this.employeeId = employeeId;
     }
+
+    
+
+   
 
     public int getId() {
         return id;
