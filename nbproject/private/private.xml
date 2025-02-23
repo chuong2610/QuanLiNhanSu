@@ -3,11 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dao/AttendenceDAO.java</file>
-            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/model/Salary.java</file>
+            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dto/EmployeeDTO.java</file>
+            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dto/RoleDTO.java</file>
+            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/model/Employee.java</file>
             <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/ultils/DBUltils.java</file>
-            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dao/EmployeeDAO.java</file>
-            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/model/Attendence.java</file>
+            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dto/AttendenceDTO.java</file>
+            <file>file:/D:/Project_prj301/QuanLiNhanSu/src/java/dto/SalaryDTO.java</file>
         </group>
     </open-files>
 </project-private>
